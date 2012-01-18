@@ -1,0 +1,9 @@
+"actions.linedance.title" = "Line Dance";
+
+"com.onecrayon.sugar.linedance.duplicateLine.title" = "Duplicate Line";
+"com.onecrayon.sugar.linedance.duplicateLine.title.multiple" = "Duplicate Lines";
+"com.onecrayon.sugar.linedance.duplicateLineUp.title" = "Duplicate Line Upward";
+"com.onecrayon.sugar.linedance.duplicateLineUp.title.multiple" = "Duplicate Lines Upward";
+
+"com.onecrayon.sugar.linedance.deleteLine.title" = "Delete Line";
+"com.onecrayon.sugar.linedance.deleteLine.title.multiple" = "Delete Lines";

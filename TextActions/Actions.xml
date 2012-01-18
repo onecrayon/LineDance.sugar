@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<action-recipes>
+	
+	<action id="com.onecrayon.sugar.linedance.deleteLine" category="actions.linedance/1">
+		<script>delete-line.js</script>
+		<key-equivalent>command shift K</key-equivalent>
+	</action>
+	
+	<action id="com.onecrayon.sugar.linedance.duplicateLine" category="actions.linedance/2">
+		<script>duplicate-line.js</script>
+		<key-equivalent>command shift D</key-equivalent>
+	</action>
+	
+	<action id="com.onecrayon.sugar.linedance.duplicateLineUp" category="actions.linedance/3">
+		<script>duplicate-line.js</script>
+		<key-equivalent>command shift option D</key-equivalent>
+		<setup>
+			<direction>up</direction>
+		</setup>
+	</action>
+	
+</action-recipes>
