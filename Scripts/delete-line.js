@@ -29,7 +29,9 @@ action.performWithContext = function (context, outError) {
 	
 	// If on the last line of the doc, remove the line break prior to the line
 	// This isn't strictly necessary, but it's nice to have
-	if (context.lineStorage.lineNumberForIndex(deleteRange.location + deleteRange.length) === context.lineStorage.numberOfLines) {
+	var deleteRangeLoc = (deleteRange.length === 0) ? deleteRange.length : deleteRange.length - 1,
+		lineRange = context.lineStorage.lineNumberForIndex(deleteRange.location + deleteRangeLoc);
+	if (lineRange === context.lineStorage.numberOfLines && lineRange !== 1) {
 		deleteRange = new Range(deleteRange.location - 1, deleteRange.length + 1);
 	}
 	
